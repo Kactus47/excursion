@@ -2,7 +2,7 @@
   "name": "patay",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://kactus47.github.io/excursion/",
+  "hompage": "https://kactus47.github.io/excursion",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
