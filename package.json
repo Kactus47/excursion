@@ -2,7 +2,7 @@
   "name": "patay",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://kactus47.github.io/excursion",
+  "hompage": ".",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -13,7 +13,6 @@
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
     "@types/react-slick": "^0.23.10",
-    "gh-pages": "^6.0.0",
     "html-react-parser": "^4.2.2",
     "react": "^18.2.0",
     "react-content-loader": "^6.2.1",
@@ -32,8 +31,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
