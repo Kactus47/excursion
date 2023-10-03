@@ -5,6 +5,10 @@ export const PageNotFound: React.FC = () => {
     document.title = 'Страница не найдена'    
   }, [])
   return (
-    <>Not Found</>
+    <div className="container">
+      <div className="page-404">
+          Not Found
+      </div>
+    </div>
   )
 }
