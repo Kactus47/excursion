@@ -1,0 +1,36 @@
+.faq-item {
+  margin-bottom: 20px;
+  &__title {
+    border-bottom: 1px dashed #828282;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+	  position: relative;
+    display: inline-block;
+    &:hover {
+      border-bottom-color: transparent;
+    }
+  }
+  &.active &__title {
+    border-bottom-color: transparent;
+  }
+  &.active &__title:after {
+    background: transparent url("../../assets/images/icon_faq.png") no-repeat scroll 0 0;
+    content: "";
+    height: 25px;
+    position: absolute;
+    right: -36px;
+    top: 2px;
+    width: 25px;
+  }
+  &__text{
+    background: #f3f3f3 none repeat scroll 0 0;
+    display: none;
+    line-height: 23px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  &.active &__text {
+    display: block;
+  }
+}

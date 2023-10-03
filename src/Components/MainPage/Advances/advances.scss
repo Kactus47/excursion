@@ -1,0 +1,61 @@
+.advances {
+  margin: 100px 0;
+  .container {
+    display: flex;
+  }
+}
+.advances_item {
+  width: 25%;
+  text-align: center;
+  padding: 0 15px;
+  &__icon {
+    height: 85px;
+    display: block;
+    &-order {
+      background: transparent url("../../../assets/images/i_order_online.png") no-repeat scroll center top;
+    }
+    &-prepaid {
+      background: transparent url("../../../assets/images/i_prepaid.png") no-repeat scroll center top;
+    }
+    &-hot_line {
+      background: transparent url("../../../assets/images/i_hot_line.png") no-repeat scroll center top;
+    }
+    &-price_free {
+      background: transparent url("../../../assets/images/i_price_free.png") no-repeat scroll center top;
+    }
+  }
+  &__title {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 39px 0 13px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 1230px) {
+  .advances .container{
+    flex-wrap: wrap;
+  }
+  .advances_item {
+    width: 50%;
+    &:nth-child(1),
+    &:nth-child(2) {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .advances {
+    margin: 50px 0;
+  }
+  .advances_item {
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+    &__title {
+      margin-top: 20px;
+    }
+  }
+}

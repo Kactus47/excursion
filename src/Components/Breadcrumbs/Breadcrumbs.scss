@@ -1,0 +1,14 @@
+.breadcrumbs {
+  font-weight: 600;
+  text-transform: uppercase;
+  a {
+    color: #FFF;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__separator{
+    margin: 0 4px;
+  }
+}

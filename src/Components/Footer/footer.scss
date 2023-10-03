@@ -1,0 +1,159 @@
+.footer {
+  background: #314045 none repeat scroll 0 0;
+  border-top: 2px solid #ffb900;
+  color: #b0cad3;
+  line-height: 20px;
+  margin-top: 50px;
+  &__title {
+    font: bold 16px Open Sans;
+    margin-bottom: 35px;
+    position: relative;
+    text-transform: uppercase;
+    &:after {
+      background: #fcb714 none repeat scroll 0 0;
+      bottom: -10px;
+      content: "";
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: 82px;
+    }
+  }
+  .footer-top{
+    padding: 45px 0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+.about-company {
+  width: 510px;
+  &__description{
+      color: #a4bbc2;
+      font: 13px/22px Open Sans;
+      margin: 26px 0 24px;
+  }
+  &__more {
+    font-weight: 600;
+    font-size: 13px;
+  }
+}
+
+.footer-navigation {
+  width: 280px;
+  margin-right: 30px;
+  &__menu li:not(:last-child) {
+    border-bottom: 1px solid #50646b;
+    margin: 0 0 7px;
+    padding: 0px 0 8px;
+  }
+  &__menu li {
+    a {
+      font-size: 13px;
+    }
+  }
+}
+
+.footer-contacts{
+  width: 280px;
+  font-size: 13px;
+  &__phones {
+    .phone{
+      background: transparent url("../../assets/images/icon_phone.png") no-repeat scroll 0 5px;
+      color: #fff;
+      font-weight: 600;
+      padding-left: 26px;
+    }
+    .info_phone{
+      margin-top: 14px;
+    }
+  }
+  &__time-work{
+    background: transparent url("../../assets/images/icon_clock.png") no-repeat scroll 0 21px;
+    border-top: 1px solid #50646b;
+    margin-top: 20px;
+    padding-top: 16px;
+    padding-left: 26px;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffb900;
+  padding: 30px 0;
+  .copyrait {
+    font-size: 12px;
+  }
+}
+.social {
+  display: flex;
+  align-items: center;
+  &__title {
+    margin-right: 10px;
+  }
+  &__link {
+    background: transparent url("../../assets/images/social_icon.png") no-repeat scroll 0 0;
+    height: 24px;
+    width: 25px;
+    &:hover {
+      opacity: 0.7;
+    }
+    &-fb {
+      background-position: -29px 0;
+    }
+    &-tw {
+      background-position: -57px 0;
+    }
+  }
+  &__link:not(:last-child) {
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .about-company {
+    width: 420px;
+    padding-right: 30px;
+  }
+  .footer-contacts {
+    width: 250px;
+  }
+  .footer-navigation {
+    width: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer .container {
+    flex-wrap: wrap;
+  }
+  .about-company {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 574px)  {
+  .footer-navigation {
+    width: 100%;
+    margin-right: 0;
+  }
+  .footer-contacts {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .social {
+    margin-top: 20px;
+  }
+}

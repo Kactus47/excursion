@@ -1,0 +1,148 @@
+.excursion-content {
+  &__table,
+  &__information {
+    margin: 50px 0;
+  }
+  &__description {
+    text-align: center;
+  }
+}
+
+.table {
+  overflow: auto;
+  table {
+    border: 1px solid #778387;
+    border-collapse: separate;
+    border-radius: 15px;
+    border-spacing: 0;
+    overflow: hidden;
+    width: 100%;
+    thead tr th,
+    tbody tr td {
+      &:first-child {
+        text-align: left;
+      }
+      &:not(:last-child) {
+        border-right: 1px solid #778387;
+      }
+    }
+    thead tr th {
+      background: #314045 none repeat scroll 0 0;
+      border-bottom: medium none;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      padding: 19px 35px 19px;
+      color: #FFF;
+      text-align: center;
+    }
+    tbody tr td {
+      padding: 12px 35px 16px;
+      font-size: 15px;
+      line-height: 18px;
+      color: #314045;
+      text-align: center;
+    }
+    tbody tr:not(:last-child) td {
+        border-bottom: 1px solid #778387;
+    }
+  }
+}
+
+.information_block {
+  display: flex;
+  padding: 0 100px;
+  &__item {
+    background: #fcb714 none repeat scroll 0 0;
+    color: #262626;
+    font-weight: 600;
+    font-size: 22px;
+    height: 115px;
+    padding: 10px 20px;
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    &:nth-child(2n) {
+      background-color: #ffd164;
+    }
+  }
+  &__label {
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}
+
+.slick-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  .slick-track {
+    display: flex;
+  }
+  .slick-dots {
+    text-align: center;
+    margin-top: 20px;
+    li {
+      display: inline;
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+      &.slick-active button {
+        background: #fcb714;
+      }
+      button{
+        background: #d6d6d6 none repeat scroll 0 0;
+        border-radius: 20px;
+        height: 10px;
+        overflow: hidden;
+        text-indent: -9999px;
+        width: 10px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 1230px) {
+  .information_block {
+    padding: 0;
+    &__item {
+      font-size: 20px;
+      height: 95px;
+    }
+  }
+}
+
+@media (max-width: 991px)  {
+  .information_block {
+    flex-wrap: wrap;
+    &__item {
+      width: 33.33%;
+    }
+  }
+}
+
+@media (max-width: 574px)  {
+  .information_block {
+    &__item {
+      width: 100%;
+      height: 100%;
+      min-height: 95px;
+      div {
+        width: 100%;
+      }
+    }
+  }
+  .table {
+    table {
+      width: 800px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.tour {
+  background: transparent url("../../../assets/images/bg_excursion.jpg") repeat scroll center top;
+  padding: 95px 0 82px;
+  &-main {
+    margin: 100px 0 0;
+  }
+  &__description {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+  &__more {
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 574px) {
+  .tour {
+    padding: 50px 0;
+  }
+  .tour-main {
+    margin: 50px 0 0;
+  }
+}

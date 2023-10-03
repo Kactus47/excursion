@@ -1,0 +1,119 @@
+.recomend-tours {
+  display: flex;
+}
+.recomend-tours-item {
+  width: 25%;
+  height: 102px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  &:hover {
+    height: 178px;
+    margin-top: -76px;
+  }
+  &:after{
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &__header {
+    top: 26px;
+  }
+  &__header,
+  &__footer {
+    left: 0;
+    position: absolute;
+    padding: 0 25px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__header-title {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__header-location {
+      color: #d1d1d1;
+  }
+  &__header-price {
+      color: #fcb714;
+      font-weight: 600;
+      font-size: 18px;
+  }
+  &__footer {
+    bottom: 40px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0.1s;
+    -moz-transition: all 0.3s ease 0.1s;
+    -o-transition: all 0.3s ease 0.1s;
+    transition: all 0.3s ease 0.1s;
+    z-index: -1;
+    bottom: 26px;
+    &-time {
+      color: #fff;
+      font-weight: 700;
+      justify-content: space-between;
+      div {
+        color: #d1d1d1;
+        font: 600 14px Open Sans;
+      }
+    }
+    a {
+      color: #fcb714;
+      font-weight: 700;
+      font-size: 11px;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &:hover &__footer {
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1230px) {
+  .recomend-tours{
+    flex-wrap: wrap;
+  }
+  .recomend-tours-item {
+    width: 50%;
+    height: auto;
+    &__footer {
+      opacity: 1;
+      z-index: 1;
+    }
+    &__image {
+      width: 100%;
+    }
+    &:hover {
+      height: auto;
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .recomend-tours-item {
+    width: 100%;
+  }
+}

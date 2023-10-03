@@ -1,0 +1,39 @@
+.category {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  &__tab{
+    border: 3px solid transparent;
+    border-radius: 28px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    &-active,
+    &:hover {
+    border-color: #fcb714;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .category{
+    &__tab{
+      flex-wrap: wrap;
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 574px)  {
+  .category {
+    margin: 30px 0;
+  }
+}

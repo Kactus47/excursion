@@ -1,0 +1,28 @@
+.blogs {
+  &__title {
+    font: 36px Constantia;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+}
+@media (max-width: 991px) {
+  .blogs {
+    &__content {
+      gap: 30px;
+    }
+  }
+}
+
+@media (max-width: 574px) {
+  .blogs {
+    &__content {
+      max-width: 367px;
+      margin: 0 auto;
+    }
+  }
+}

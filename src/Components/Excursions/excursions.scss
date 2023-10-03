@@ -1,0 +1,16 @@
+.excursions-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+
+
+
+@media (max-width: 767px)  {
+  .excursions-content {
+    gap: 30px;
+    max-width: 370px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,85 @@
+.main-offer {
+    background: transparent url("../../../assets/images/bg_top_block.jpg") no-repeat scroll center top;
+    height: 629px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  &__title {
+    font: bold 130px/101px Open Sans;
+    text-transform: uppercase;
+    padding-bottom: 55px;
+    margin-bottom: 43px;
+    background: transparent url("../../../assets/images/i_grafic_block.png") no-repeat scroll 0 bottom;
+    span {
+      font: bold 58px/58px Open Sans;
+      display: block;
+    }
+  }
+  &__descrition,
+  &__contact {
+    font-size: 18px;
+    line-height: 1;
+    padding: 3px 15px 6px;
+    display: inline-block;
+  }
+  &__descrition {
+    background: #314045;
+  }
+  &__contact {
+      background: #ffb900;
+      font-weight: 600;
+      margin-top: 2px;
+  }
+  &:after {
+	  background: #fbda75; /* Old browsers */
+    background: -moz-linear-gradient(left,  #fbda75 0%, #fbda75 42%, #e28000 56%, #e28000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #fbda75 0%,#fbda75 42%,#e28000 56%,#e28000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #fbda75 0%,#fbda75 42%,#e28000 56%,#e28000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbda75', endColorstr='#e28000',GradientType=1 ); /* IE6-9 */
+    bottom: 0;
+    content: "";
+    height: 8px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-offer {
+    height: 490px;
+    &__title {
+      font-size: 100px;
+      span {
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .main-offer {
+    &__title {
+      font-size: 80px;
+    }
+    &__descrition,
+    &__contact {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .main-offer {
+    height: 400px;
+    &__title {
+      font-size: 40px;
+      line-height: 1.2;
+      span {
+        font-size: 18px;
+        line-height: 1.2;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.reviews {
+  &__main {
+    margin: 100px 0;
+  }
+  &__title {
+    font: 36px Constantia;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 45px;
+  }
+}
+.reviews-form-block {
+  background: transparent url("../../assets/images/bg_excursion.jpg") repeat scroll center top;
+  padding: 50px 0;
+  margin: 50px 0 -50px;
+}
+
+@media (max-width: 1230px) {
+  .reviews {
+    &__content {
+      gap: 30px;
+    }
+  }
+}
+@media (max-width: 767px)  {
+  .reviews__content {
+    gap: 30px;
+    max-width: 370px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 574px)  {
+  .reviews__main {
+    margin: 50px 0;
+  }
+}

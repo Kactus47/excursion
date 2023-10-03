@@ -1,0 +1,91 @@
+.about{
+  .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__title {
+    margin-right: 30px;
+    width: 436px;
+    .title {
+      color: #e8e8e8;
+      font: bold 135px/135px Constantia;
+      text-transform: uppercase;
+    }
+    .slogan{
+      color: #2a2a2a;
+      font: bold 33px/34px Constantia;
+      margin: 10px 16px 0 0;
+      text-align: right;
+      text-transform: uppercase;
+    }
+  }
+  &__text {
+    background: transparent url("../../../assets/images/bg_graf_block.jpg") no-repeat scroll 0 0;
+    height: 247px;
+    padding: 10px;
+    width: 733px;
+    div {
+      background: #fff none repeat scroll 0 0;
+      padding: 15px 50px;
+      line-height: 24px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 1230px) {
+  .about {
+    &__title {
+      .title {
+        font-size: 95px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .about {
+    .container {
+      flex-wrap: wrap;
+    }
+    &__title {
+      margin-right: 0;
+      width: 100%;
+      text-align: center;
+      .slogan {
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        br {
+          display: none;
+        }
+      }
+    }
+  } 
+}
+@media (max-width: 767px) {
+  .about{
+    &__text{
+      height: auto;
+      background-size: cover;
+    }
+  }
+}
+
+@media (max-width: 574px) {
+  .about{
+    &__title{
+      .title {
+        font-size: 65px;
+        line-height: 1.2;
+      }
+      .slogan {
+        font-size: 25px;
+        line-height: 1.2;
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "recomendation": 1,
+    "typeTur": "Рыбалка",
+    "title": "Озерная рыбалка",
+    "location": "Паттайя, Тайланд",
+    "teazerPhoto": "https://imageup.ru/img14/4541151/ryb2.jpg",
+    "teazerPhotoSmall": "https://imageup.ru/img174/4541166/ryb2-1.jpg",
+    "sliderPhoto": ["https://imageup.ru/img253/4541179/d1_2.jpeg", "https://imageup.ru/img203/4541193/d2_3.jpg"],
+    "price": [
+      {
+        "title": "Река Квай Стандарт",
+        "priceChildren": 25000,
+        "priceGrown": 30000
+      }
+    ],
+    "infoTour": {
+      "duration": 8,
+      "days": "ежедневно",
+      "time": ["04:30", "20:30"],
+      "transfer": 2000,
+      "call times": "4:00-24:00"
+    },
+    "placeDescription": {
+      "title": "Река Квай Стандарт",
+      "type": "Вариант с гидом",
+      "topText": "Как отмечает Теодор Адорно, процессуальное изменение иллюстрирует звукосниматель. Соинтервалие имитирует миксолидийский септаккорд.",
+      "photoReport": [
+        {
+          "teazer": "https://imageup.ru/img244/4541196/d5_4.jpg",
+          "fullImage": "https://imageup.ru/img101/4541258/d5_1.jpg"
+        },
+        {
+          "teazer": "https://imageup.ru/img157/4541200/d6_1.jpg",
+          "fullImage": "https://imageup.ru/img269/4541260/d6_1.jpg"
+        },
+        {
+          "teazer": "https://imageup.ru/img107/4541203/d7_1.jpg",
+          "fullImage": "https://imageup.ru/img225/4541264/d7_1.jpg"
+        },
+        {
+          "teazer": "https://imageup.ru/img122/4541207/d8_1.jpg",
+          "fullImage": "https://imageup.ru/img86/4541266/d8_1.jpg"
+        }
+      ],
+      "bottomText": "На озере отличный клев и большое разнообразие видов рыб (водится рыба-аллигатор и др. крупные экземпляры). При желании пойманный трофей можно приготовить. Стоимость пойманной и приготовленной рыбы 80 "
+    }
+  },
+  {
+    "id": 1,
+    "recomendation": 1,
+    "typeTur": "Экскурсия",
+    "title": "Познавательные экскурсии",
+    "location": "Пхутек, Тайланд",
+    "teazerPhoto": "https://imageup.ru/img19/4541284/90525463.jpg",
+    "teazerPhotoSmall": "https://imageup.ru/img277/4541285/90525463-1.jpg",
+    "sliderPhoto": ["https://imageup.ru/img207/4541319/ribalka-phuket-9_0.jpg", "https://imageup.ru/img203/4541193/d2_3.jpg", "https://imageup.ru/img253/4541179/d1_2.jpeg"],
+    "price": [
+      {
+        "title": "Остров",
+        "priceChildren": 20000,
+        "priceGrown": 24000
+      },
+      {
+        "title": "Гора Говерла",
+        "priceChildren": 22000,
+        "priceGrown": 23000
+      }
+    ],
+    "infoTour": {
+      "duration": 2,
+      "days": "ежедневно",
+      "time": ["05:30", "21:30"],
+      "transfer": 1000,
+      "call times": "5:00-22:00"
+    },
+    "placeDescription": {}
+  },
+  {
+    "id": 2,
+    "recomendation": 1,
+    "typeTur": "Развлечение",
+    "title": "Озерная рыбалка",
+    "location": "Паттайя, Тайланд",
+    "teazerPhoto": "https://imageup.ru/img51/4541299/rybalka.jpg",
+    "teazerPhotoSmall": "https://imageup.ru/img290/4541301/rybalka-1.jpg",
+    "sliderPhoto": ["https://imageup.ru/img253/4541179/d1_2.jpeg", "https://imageup.ru/img203/4541193/d2_3.jpg"],
+    "price": [
+      {
+        "title": "Остров",
+        "priceChildren": 21000,
+        "priceGrown": 25000
+      },
+      {
+        "title": "Гора Говерла",
+        "priceChildren": 23000,
+        "priceGrown": 24000
+      }
+    ],
+    "infoTour": {
+      "duration": 2,
+      "days": "ежедневно",
+      "time": ["06:35", "20:30"],
+      "transfer": 4000,
+      "call times": "06:00-22:00"
+    },
+    "placeDescription": {}
+  },
+  {
+    "id": 3,
+    "recomendation": 1,
+    "typeTur": "Отдых на островах",
+    "title": "Релакс",
+    "location": "Хуахин, Тайланд",
+    "teazerPhoto": "https://imageup.ru/img144/4541308/1703831820.jpg",
+    "teazerPhotoSmall": "https://imageup.ru/img19/4541309/1703831820-1.jpg",
+    "sliderPhoto": ["https://imageup.ru/img203/4541193/d2_3.jpg"],
+    "price": [
+      {
+        "title": "Остров",
+        "priceChildren": 41000,
+        "priceGrown": 45000
+      },
+      {
+        "title": "Гора Говерла",
+        "priceChildren": 43000,
+        "priceGrown": 44000
+      }
+    ],
+    "infoTour": {
+      "duration": 2,
+      "days": "ежедневно",
+      "time": ["10:35", "18:30"],
+      "transfer": 18000,
+      "call times": "06:00-22:00"
+    },
+    "placeDescription": {}
+  },
+  {
+    "id": 4,
+    "recomendation": 0,
+    "typeTur": "Релакс",
+    "title": "Дайвинг",
+    "location": "Хуахин, Тайланд",
+    "teazerPhoto": "",
+    "teazerPhotoSmall": "https://imageup.ru/img164/4541313/26556.jpg",
+    "sliderPhoto": ["https://imageup.ru/img253/4541179/d1_2.jpeg"],
+    "price": [
+      {
+        "title": "Остров",
+        "priceChildren": 31000,
+        "priceGrown": 35000
+      },
+      {
+        "title": "Гора Говерла",
+        "priceChildren": 33000,
+        "priceGrown": 34000
+      }
+    ],
+    "infoTour": {
+      "duration": 2,
+      "days": "ежедневно",
+      "time": ["09:35", "08:30"],
+      "transfer": 18000,
+      "call times": "07:00-09:00"
+    },
+    "placeDescription": {}
+  },
+  {
+    "id": 5,
+    "recomendation": 0,
+    "typeTur": "Экскурсия",
+    "title": "Галерея объемных картин",
+    "location": "Хуахин, Тайланд",
+    "teazerPhoto": "",
+    "teazerPhotoSmall": "https://imageup.ru/img285/4541315/1.jpg",
+    "sliderPhoto": ["https://imageup.ru/img207/4541319/ribalka-phuket-9_0.jpg"],
+    "price": [
+      {
+        "title": "Остров",
+        "priceChildren": 11000,
+        "priceGrown": 15000
+      },
+      {
+        "title": "Гора Говерла",
+        "priceChildren": 13000,
+        "priceGrown": 14000
+      }
+    ],
+    "infoTour": {
+      "duration": 3,
+      "days": "ежедневно",
+      "time": ["10:35", "08:30"],
+      "transfer": 8000,
+      "call times": "07:00-09:00"
+    },
+    "placeDescription": {}
+  }
+]
