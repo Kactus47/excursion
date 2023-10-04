@@ -34,3 +34,11 @@
     display: block;
   }
 }
+
+@media (max-width: 574px)  {
+  .faq-item {
+    &.active &__title:after {
+      display: none;
+    }
+  }
+}

@@ -14,9 +14,9 @@ export const HeaderContent: React.FC = () => {
         <div className="header__contact">
           <div className="header__contact-phone">
             <div className="header__contact-number">+66 60002 4036  <span>(Таиланд)</span></div>
-            <div className="header__contact-number">8 800 100 6618 <span>(Бесплатно из РФ)</span></div>
+            <div className="header__contact-number">8 800 000 000 <span>(Бесплатно)</span></div>
           </div>
-          <div className="header__contact-description">Оба телефона поддерживают горячую линию на русском, с 4:00 до 24:00</div>
+          <div className="header__contact-description">Оба телефона поддерживают горячую линию, с 4:00 до 24:00</div>
         </div>
       </div>
     </div>

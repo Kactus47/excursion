@@ -53,8 +53,8 @@ export const FooterTop: React.FC = () => {
         <div className="footer-contacts">
           <div className="footer-contacts__title footer__title">Контакты</div>
           <div className="footer-contacts__phones">
-            <div className="phone">+66 60002 4036  (Таиланд)<br />+7 800 100 6618 (Бесплатно из РФ)</div>
-            <div className="info_phone">Оба телефона поддерживают горячую линию на русском</div>
+            <div className="phone">+66 60002 4036  (Таиланд)<br />8 800 000 0000 (Бесплатно)</div>
+            <div className="info_phone">Оба телефона поддерживают горячую линию</div>
           </div>
           <div className="footer-contacts__time-work">Ежедневно<br /> с 4:00 до 24:00</div>
         </div>
